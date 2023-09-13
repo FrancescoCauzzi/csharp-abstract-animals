@@ -47,6 +47,8 @@ namespace csharp_abstract_animals
             WriteLine("Hardcoded version");
             FaiVolare(aquila1);
             FaiNuotare(delfino1);
+
+            ReadKey();
             
 
 
