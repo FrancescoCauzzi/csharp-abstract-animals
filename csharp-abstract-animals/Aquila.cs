@@ -8,7 +8,7 @@ using static System.Console;
 
 namespace csharp_abstract_animals
 {
-    public class Aquila : Animal
+    public class Aquila : Animal, IFly 
     {
         public override void CosaMangi()
         {
@@ -22,6 +22,11 @@ namespace csharp_abstract_animals
 
         public override string ToString(){
             return "Aquila";
+        }
+
+        public void Vola()
+        {
+            WriteLine("Sto volando!!!");
         }
     }
 }

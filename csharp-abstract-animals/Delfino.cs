@@ -8,7 +8,7 @@ using static System.Console;
 
 namespace csharp_abstract_animals
 {
-    internal class Delfino : Animal
+    internal class Delfino : Animal, ISwim
     {
         public override void CosaMangi()
         {
@@ -22,6 +22,11 @@ namespace csharp_abstract_animals
 
         public override string ToString(){
             return "Delfino";
+        }
+
+        public void Nuota()
+        {
+            WriteLine("Sto nuotando!!!");
         }
     }
 }
