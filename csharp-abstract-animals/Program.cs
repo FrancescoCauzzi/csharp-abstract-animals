@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Creiamo quindi una classe astratta Animale
+            // e delle classi che la estendono : Cane, Passerotto, Aquila, Delfino
         }
     }
 }
